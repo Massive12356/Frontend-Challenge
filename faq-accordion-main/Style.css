@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  background:url(/faq-accordion-main/assets/images/background-pattern-desktop.svg) no-repeat;
+  background-color: hsl(275, 100%, 97%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container{
+  background: #fff;
+  width: 550px;
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.container .heading {
+  display: flex;
+  gap: 15px;
+}
+
+.container .heading h1 {
+  font-weight: 800;
+}
+
+.container .question {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container p {
+  color:  hsl(292, 42%, 14%);
+  font-size: 16px;
+}
+
+.container .question img {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.container hr {
+  border: 1px solid #d3d3d3;
+}
+
+@media (max-width: 565px) {
+  .container{
+    width: 400px;
+  } 
+}
+@media (max-width: 400px) {
+  .container{
+    width: 350px;
+  } 
+}
