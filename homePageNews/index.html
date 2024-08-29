@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./newsPage.css">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+<img src="./assets/images/logo.svg" alt="" srcset="" class="logo">
+    <div class="links-close-div ">
+      <div id="closeIcon-div">
+        <img src="./assets/images/icon-menu-close.svg" alt="" class="close-menu-icon" id="close-menu-icon">
+      </div>
+
+      <div class="ul-links-div" id="ul-links-div">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Categories</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="menuIcon-div">
+      <img src="./assets/images/icon-menu.svg" alt="" srcset="" class="menu-icon">
+    </div>
+  </header>
+
+  <section> 
+    <div class="container1">
+      <div class="image-brightFuture-readMoreWrapper">
+        <div class="image-div">
+          <picture>
+            <source media="(max-width:375px)" srcset="./assets/images/image-web-3-mobile.jpg">
+            <img src="./assets/images/image-web-3-desktop.jpg" alt="" srcset=" ">
+          </picture>
+        </div>
+
+        <div class="readMoreContainer-div">
+          <div class="bright-div">
+            <h3>
+              The Bright Future of Web 3.0?
+            </h3>
+          </div>
+
+          <div class="readMore-div">
+            <p>
+            we dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
+            </p>
+            <a href="#">READ MORE</a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="newContainer-div">
+        <h2>New</h2>
+
+        <p> Hydrogen VS Electric Cars <br> <span>Will hydrogen-fueled cars ever catch up to EVs?</span></p>
+
+        <p>The Downsides of AI Artistry <br> <span>What are the possible adverse effects of on-demand AI image generation?  </span></p>
+      
+        <p> Is VC Funding Drying Up? <br> <span> Private funding by VC firms is down 50% YOY. We take a look at what that means.</span></p>
+      
+      </div>
+    </div>
+
+    <div class="container2">
+      <div class="card-div">
+        <div class="img-div">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="" srcset="">
+        </div>
+        <div class="text-div">
+          <p>01</p>
+          <h4> <span>Reviving Retro PCs</span> <br> what happens when old PCs are given modern upgrades?
+          </h4>
+        </div>
+      </div>
+      <div class="card-div">
+        <div class="img-div">
+          <img src="./assets/images/image-top-laptops.jpg" alt="" srcset="">
+        </div>
+        <div class="text-div">
+          <p>02</p>
+          <h4> <span>Top 10 Laptops of 2022</span> <br> Our best picks for various <br>needs and budgets.</h4>
+        </div>
+      </div>
+      <div class="card-div">
+        <div class="img-div">
+          <img src="./assets/images/image-gaming-growth.jpg" alt="" srcset="">
+        </div>
+
+        <div class="text-div">
+          <p>03</p>
+          <h4><span>The Growth of Gaming</span> <br> How the pandemic has sparked fresh opportunities</h4>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">EDWARD MINTAH JR</a>.
+  </div>
+  <script src="./newsPage.js"></script>
+</body>
+</html>
